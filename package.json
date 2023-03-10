@@ -1,0 +1,20 @@
+{
+  "name": "eth-vech-batch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "bignumber.js": "9.0.1",
+    "dotenv": "^16.0.3",
+    "xp.network": "git+https://github.com/xp-network/xpjs#bleeding-edge"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
